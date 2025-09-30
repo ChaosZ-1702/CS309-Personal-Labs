@@ -210,7 +210,7 @@ def main(project_directory):
         print(f"已创建项目目录: {project_dir}")
 
     tools = [read_file, write_to_file, run_terminal_command]
-    agent = ReActAgent(tools=tools, model="gemini-2.5-flash", project_directory=project_dir)
+    agent = ReActAgent(tools=tools, model="gpt-5-2025-08-07", project_directory=project_dir)
 
     task = input("请输入任务：")
 
